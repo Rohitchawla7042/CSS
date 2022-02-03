@@ -1,0 +1,49 @@
+section {
+    display: flex;
+    flex-direction: column ; 
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    border: 2px solid red;
+    height: 344px;
+    justify-content: center;
+    /* color: rgb(0, 21, 139); */
+}
+
+section::before {
+    content: "Hey it is before section" ;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(57, 201, 169);
+    color: rgb(102, 67, 199);
+}
+.navigation {
+    display: flex;
+    border: 2px solid black;
+    /* text-decoration: none; */
+    /* flex-direction: column; */
+    
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    /* text-decoration: none; */
+    
+}
+
+section::after {
+    content: "it is after section ";
+}
+
+h3 {
+    font-size: 30px;
+}
