@@ -1,19 +1,16 @@
-
 section {
     display: flex;
     flex-direction: column ; 
     padding: 5px;
-    margin: 11px 322px;
+    margin: 10px;
     align-items: center;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 344px;
     justify-content: center;
     /* color: rgb(0, 21, 139); */
-    font-size: 300px;
 }
 
 section::before {
-    font-size: 35px;
     content: "Hey it is before section" ;
 }
 
@@ -21,34 +18,30 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(57, 201, 169);
-    color: rgb(223, 233, 233);
-    background :url("https://images.unsplash.com/photo-1642286599847-4b5a8955aca0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY0Mzk2NjA3OQ&ixlib=rb-1.2.1&q=80&w=1080") no-repeat center center/cover ;
+    color: rgb(102, 67, 199);
 }
 .navigation {
     display: flex;
-    font-size: 50px;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     /* text-decoration: none; */
     /* flex-direction: column; */
     
 }
 
 .navigation li a {
-    color: white;
     text-decoration: none;
 }
 
 li {
     list-style: none;
-    padding:20px 26px;
-    margin: 27px 27px;
+    padding: 20px;
+    margin: 20px;
     /* text-decoration: none; */
     
 }
 
-p {
-    text-align: center;
-    font-size: 50px;
+section::after {
+    content: "it is after section ";
 }
 
 h3 {
@@ -79,14 +72,6 @@ header::before {
     z-index: -1;
     opacity: 0.5;
 
-
 }
-
-
-
-
-
-
-
 
 
